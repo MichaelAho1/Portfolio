@@ -10,6 +10,8 @@ import javaIcon from '../assets/java.png';
 import cIcon from '../assets/c.png';
 import wordpressIcon from '../assets/wordpress.png';
 import gitIcon from '../assets/git.png';
+import flaskIcon from '../assets/flask.png';
+import mongoDBIcon from '../assets/mongoDB.png';
 
 function Profile() {
   return (
@@ -94,6 +96,14 @@ function Profile() {
               <div className="tech-item">
                 <img src={cIcon} alt="C icon" />
                 <span>C</span>
+              </div>
+              <div className="tech-item">
+                <img src={mongoDBIcon} alt="MongoDB icon" />
+                <span>MongoDB</span>
+              </div>
+              <div className="tech-item">
+                <img src={flaskIcon} alt="Flask icon" />
+                <span>Flask</span>
               </div>
               <div className="tech-item">
                 <img src={wordpressIcon} alt="WordPress icon" />
