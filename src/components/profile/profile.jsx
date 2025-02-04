@@ -71,6 +71,21 @@ function Profile() {
         <h3 id="head3">About Me</h3>
         <div className="about-container">
           <div className="section-group">
+            <h4>💻Experience</h4>
+            <div className="tech-item">
+             <p>LandMarksCM <br></br>Web Development Intern</p>
+             <p className="job-description">Created and Managed there company website using Wordpress, JavaScript, and HTML/CSS. Implemened captcha systems to avoid spam emails and met any requests that the company wanted on there website.</p>
+            </div>
+            <div className="tech-item">
+             <p>JMU Cyber Defense Club</p>
+             <p className="job-description">Participate in 2 weekly meetings, learn about cyber defense methods, particpate in capture the flag competions, and particpate in security workshops.</p>
+            </div>
+            <div className="tech-item">
+             <p>Outlier AI  Contract Work</p>
+             <p className="job-description">Learn about AI's image recognition capabilities and how I can improve its ability to analize pictures of coding problems.</p>
+            </div>
+          </div>
+          <div className="section-group">
             <h4>💻Technologies</h4>
             <div className="tech-items">
               <div className="tech-item">
