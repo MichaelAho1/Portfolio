@@ -10,7 +10,6 @@ function StockBar() {
   const [stockPercentage2, setStockPercentage2] = useState();
   const [stockPercentage3, setStockPercentage3] = useState();
   const [stockPercentage4, setStockPercentage4] = useState();
-  let portfolioPic = '428a9b4a7e55b187ef';
   let array = [];
   
   function extractStockInfo({ meta, values }) {
@@ -20,7 +19,8 @@ function StockBar() {
   }
   
   async function getStockData(symbols) {
-      const url = `https://api.twelvedata.com/time_series?apikey=${main1 + portfolioPic}&interval=1day&symbol=${symbols}&outputsize=1`;    
+      const key = import.meta.env.VITE_STOCK_API_URL;
+      const url = `https://api.twelvedata.com/time_series?apikey=${key}&interval=1day&symbol=${symbols}&outputsize=1`;    
       const response = await fetch(url); 
       if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -38,7 +38,6 @@ function StockBar() {
   function calculatePercentage({ openingPrice, closingPrice }) {
       return ((closingPrice - openingPrice) / openingPrice) * 100;
   }
-  let main1 = 'd0025d1477344b';
   
   async function main(symbols, setStockPrice0, setStockPercentage0) {
       const stockDataFromLocalStorage = localStorage.getItem(`stockData_${symbols}`);
