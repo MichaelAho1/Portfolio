@@ -4,20 +4,55 @@ import klowBitesImg from './assets/KLowBites-img.png';
 import stockSimImg from './assets/Stock-Sim-img.png';
 import morningFlowImg from './assets/MorningFlow-img.png';
 import sortResearchImg from './assets/SortReasearch-img.png';
+import stockSim from './assets/stockSim.png';
 import huffmanImg from './assets/huffmanZipping-img.png';
 import htmlIcon from '../assets/html.png';
 import jsIcon from '../assets/javascript.png';
 import reactIcon from '../assets/react.png';
 import javaIcon from '../assets/java.png';
 import gitIcon from '../assets/git.png';
-
+import flaskIcon from '../assets/flask.png';
+import pythonIcon from '../assets/python.png';
+import MySQLIcon from '../assets/MySQL.png';
 
 function Projects() {
   return (
     <div id="Projects">
       <h1 id="header">💡 Projects</h1>
       <div className="projectContainer">
-        
+        <div className="project-card">
+          <img src={stockSim} alt="StockSim" width="100px" height="100px" />
+          <h3 className="project-header">StockSim</h3>
+          <div className="tech-used">
+            <span>React</span>
+            <img src={reactIcon} />
+          </div>
+          <div className="tech-used">
+            <span>JavaScript</span>
+            <img src={jsIcon} />
+          </div>
+          <div className="tech-used">
+            <span>Flask</span>
+            <img src={flaskIcon} />
+          </div>
+          <div className="tech-used">
+            <span>Python</span>
+            <img src={pythonIcon} />
+          </div>
+          <div className="tech-used">
+            <span>MySQL</span>
+            <img src={MySQLIcon} />
+          </div>
+          <div className="tech-used">
+            <span>Git</span>
+            <img src={gitIcon} />
+          </div>
+          <p className="project-description">
+            (Not Yet Finished) A Full-stack simulator featuring dynamic prices, volatility, charts, and a compressed timeframe to keep users engaged.
+          </p>
+          <div>
+          </div>
+        </div>
         <div className="project-card">
           <img src={klowBitesImg} alt="KLowBites Project" width="100px" height="100px" />
           <h3 className="project-header">KLowBites</h3>
@@ -121,7 +156,6 @@ function Projects() {
             </a>
           </div>
         </div>
-
       </div>
     </div>
   );

@@ -12,6 +12,7 @@ import wordpressIcon from '../assets/wordpress.png';
 import gitIcon from '../assets/git.png';
 import flaskIcon from '../assets/flask.png';
 import mongoDBIcon from '../assets/mongoDB.png';
+import MySQLIcon from '../assets/MySQL.png';
 
 function Profile() {
   return (
@@ -112,6 +113,10 @@ function Profile() {
               <div className="tech-item">
                 <img src={gitIcon} alt="Git icon" />
                 <span>Git</span>
+              </div>
+              <div className="tech-item">
+                <img src={MySQLIcon} alt="Git icon" />
+                <span>MySQL</span>
               </div>
             </div>
           </div>
