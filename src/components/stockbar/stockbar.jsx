@@ -19,7 +19,8 @@ function StockBar() {
   }
   
   async function getStockData(symbols) {
-      const key = import.meta.env.VITE_STOCK_API_URL;
+      //const key = import.meta.env.VITE_STOCK_API_URL; Doesnt work when deployed on microsft edge
+      const key = 'd0025d1477344b428a9b4a7e55b187ef';
       const url = `https://api.twelvedata.com/time_series?apikey=${key}&interval=1day&symbol=${symbols}&outputsize=1`;    
       const response = await fetch(url); 
       if (!response.ok) {
