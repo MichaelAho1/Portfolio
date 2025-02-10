@@ -119,6 +119,9 @@ function Projects() {
             <a href="https://github.com/MichaelAho1/Morning-Project" className="btn">
               View Code
             </a>
+            <a href="https://michaelaho1.github.io/MorningFlow/" className="btn">
+              View Website
+            </a>
           </div>
         </div>
 
