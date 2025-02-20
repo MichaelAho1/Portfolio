@@ -116,10 +116,10 @@ function Projects() {
             A stock market game with an accelerated market and portfolio management tools.
           </p>
           <div>
-            <a href="https://github.com/MichaelAho1/Stock-Market-Simulator" className="btn">
+            <a href="https://github.com/MichaelAho1/Stock-Market-Game" className="btn">
               View Code
             </a>
-            <a href="https://michaelaho1.github.io/Stock-Market-Simulator/" className="btn">
+            <a href="https://michaelaho1.github.io/Stock-Market-Game/" className="btn">
               View Website
             </a>
           </div>
