@@ -78,30 +78,6 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={stockSimImg} alt="Stock Market Simulator" width="100px" height="100px" />
-          <h3 className="project-header">Stock Market Simulator</h3>
-          <div className="tech-used">
-            <span>JavaScript</span>
-            <img src={jsIcon} />
-          </div>
-          <div className="tech-used">
-            <span>HTML/CSS</span>
-            <img src={htmlIcon} />
-          </div>
-          <p className="project-description">
-            An engaging stock market simulator for learning trading and portfolio management.
-          </p>
-          <div>
-            <a href="https://github.com/MichaelAho1/Stock-Market-Simulator" className="btn">
-              View Code
-            </a>
-            <a href="https://michaelaho1.github.io/Stock-Market-Simulator/" className="btn">
-              View Website
-            </a>
-          </div>
-        </div>
-
-        <div className="project-card">
           <img src={morningFlowImg} alt="MorningFlow Project" width="100px" height="100px" />
           <h3 className="project-header">MorningFlow</h3>
           <div className="tech-used">
@@ -120,6 +96,30 @@ function Projects() {
               View Code
             </a>
             <a href="https://michaelaho1.github.io/MorningFlow/" className="btn">
+              View Website
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={stockSimImg} alt="Stock Market Simulator" width="100px" height="100px" />
+          <h3 className="project-header">Stock Market Game</h3>
+          <div className="tech-used">
+            <span>JavaScript</span>
+            <img src={jsIcon} />
+          </div>
+          <div className="tech-used">
+            <span>HTML/CSS</span>
+            <img src={htmlIcon} />
+          </div>
+          <p className="project-description">
+            A stock market game with an accelerated market and portfolio management tools.
+          </p>
+          <div>
+            <a href="https://github.com/MichaelAho1/Stock-Market-Simulator" className="btn">
+              View Code
+            </a>
+            <a href="https://michaelaho1.github.io/Stock-Market-Simulator/" className="btn">
               View Website
             </a>
           </div>
