@@ -79,7 +79,7 @@
 
 .timeline-content {
   flex-grow: 1;
-  background: rgba(255, 255, 255, 0.02);
+  background: linear-gradient(145deg, #050505, #252323);
   border: 1px solid rgba(78, 205, 196, 0.1);
   border-radius: 16px;
   padding: 15px 25px;
