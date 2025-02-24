@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './stockbar.css';
 
 function StockBar() {
-  const [stockPrice1, setStockPrice1] = useState();
-  const [stockPrice2, setStockPrice2] = useState();
-  const [stockPrice3, setStockPrice3] = useState();
-  const [stockPrice4, setStockPrice4] = useState();
-  const [stockPercentage1, setStockPercentage1] = useState();
-  const [stockPercentage2, setStockPercentage2] = useState();
-  const [stockPercentage3, setStockPercentage3] = useState();
-  const [stockPercentage4, setStockPercentage4] = useState();
+  const [stockPrice1, setStockPrice1] = useState(37.16);
+  const [stockPrice2, setStockPrice2] = useState(181.25);
+  const [stockPrice3, setStockPrice3] = useState(34.08);
+  const [stockPrice4, setStockPrice4] = useState(130.18);
+  const [stockPercentage1, setStockPercentage1] = useState(-1.56);
+  const [stockPercentage2, setStockPercentage2] = useState(-1.42);
+  const [stockPercentage3, setStockPercentage3] = useState(-8.39);
+  const [stockPercentage4, setStockPercentage4] = useState(-4.77);
   let array = [];
   
   function extractStockInfo({ meta, values }) {
@@ -19,7 +19,7 @@ function StockBar() {
   }
   
   async function getStockData(symbols) {
-      //const key = import.meta.env.VITE_STOCK_API_URL; Doesnt work when deployed on microsft edge
+      //const key = import.meta.env.VITE_STOCK_API_URL; Doesnt work when deployed on edge
       const key = 'd0025d1477344b428a9b4a7e55b187ef';
       const url = `https://api.twelvedata.com/time_series?apikey=${key}&interval=1day&symbol=${symbols}&outputsize=1`;    
       const response = await fetch(url); 
