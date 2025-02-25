@@ -15,8 +15,8 @@ function Timeline() {
             </p>
             <ul>
               <li>Leading the development of StockSim, a full-stack Stock Market simulator.</li>
-              <li>Developed MorningFlow to reduce the amount of time it takes to get updates in the morning.</li>
-              <li>Developed a stock market game to create a fun way for beginner traders to trade.</li>
+              <li>Developed MorningFlow to reduce the amount of time it takes to get morning updates.</li>
+              <li>Developed a stock market game to create a risk free and fun way to start learning about the market.</li>
               <li>Developed this portfolio in React.js.</li>
             </ul>
             <div className="timeline-tech">
@@ -73,7 +73,7 @@ function Timeline() {
         <article className="timeline-item">
           <div className="timeline-content">
             <h3>LandMarksCM | Web Development Intern</h3>
-            <p className="timeline-time">Jan 2024 - May 2025</p>
+            <p className="timeline-time">Jan 2024 - Mar 2025</p>
             <ul>
               <li>Designed and managed a responsive company website using WordPress and JavaScript.</li>
               <li>Implemented a captcha system that eliminated 96% of spam emails received by the company, significantly reducing manual email filtering.</li>
