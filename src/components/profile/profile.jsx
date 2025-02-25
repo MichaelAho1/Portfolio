@@ -25,14 +25,21 @@ function Profile() {
           />
           <h1 id="name">Michael Aho</h1>
           <label id="description">
-            CS @ JMU<br />
+            CS @ JMU (Aug 2023 - Dec 2026)<br />
             Full-stack Developer<br />
             Washington D.C. Area
           </label>
+          <div>
+            <a href="https://www.linkedin.com/in/michael-aho-41844a291/" target="_blank" rel="noreferrer">
+              <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" />
+            </a>
+            <a href="https://www.github.com/michaelaho1" target="_blank" rel="noreferrer">
+              <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub" />
+            </a>
+          </div>
           <p>
-            I'm a Computer Science student at JMU who enjoys building web apps 
-            and working with real data. From a stock market simulator to a productivity app, 
-            I like creating projects that are both useful and fun. Feel free to check out my work.
+            Hi, I am Michael, I love building web apps and learning new technologies.
+            Currently My most used stack is React.js, Django/Python, and MongodDB. 
           </p>
         </div>
         
@@ -57,6 +64,10 @@ function Profile() {
                 <span>Python</span>
               </div>
               <div className="skill-tag">
+                <img src={flaskIcon} alt="Flask" />
+                <span>Flask</span>
+              </div>
+              <div className="skill-tag">
                 <img src={javaIcon} alt="Java" />
                 <span>Java</span>
               </div>
@@ -69,8 +80,8 @@ function Profile() {
                 <span>MongoDB</span>
               </div>
               <div className="skill-tag">
-                <img src={flaskIcon} alt="Flask" />
-                <span>Flask</span>
+                <img src={MySQLIcon} alt="MySQL" />
+                <span>MySQL</span>
               </div>
               <div className="skill-tag">
                 <img src={wordpressIcon} alt="WordPress" />
@@ -79,10 +90,6 @@ function Profile() {
               <div className="skill-tag">
                 <img src={gitIcon} alt="Git" />
                 <span>Git</span>
-              </div>
-              <div className="skill-tag">
-                <img src={MySQLIcon} alt="MySQL" />
-                <span>MySQL</span>
               </div>
             </div>
           </div>
