@@ -3,10 +3,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0c0c0c;
+  background: radial-gradient(ellipse at bottom, #232629 0%, #000000 100%);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+  position: relative;
 }
 
 .container {
@@ -18,4 +21,6 @@ body {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
 }
