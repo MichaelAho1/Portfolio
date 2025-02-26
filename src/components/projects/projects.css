@@ -75,16 +75,12 @@
   display: inline-block;
   margin: 10px 5px;
   padding: 8px 16px;
-  background: #4ecdc4;
+  background: #368f89;
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  font-weight: 600;
   font-size: 0.9rem;
   transition: all 0.3s ease;
-  border: none;
-  position: relative;
-  overflow: hidden;
 }
 
 .btn:hover {
