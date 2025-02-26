@@ -38,8 +38,8 @@ function Profile() {
             </a>
           </div>
           <p>
-            Hi, I am Michael, I love building web apps and learning new technologies.
-            Currently My most used stack is React.js, Django/Python, and MongoDB. 
+            Hi, I am Michael, I enjoy building full-stack and front-end software, problem solving, and learning new technologies.
+            Currently, my favorite technologies are React, JavaScript, and Python.
           </p>
         </div>
         
