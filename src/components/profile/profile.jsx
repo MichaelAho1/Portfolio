@@ -38,7 +38,7 @@ function Profile() {
             </a>
           </div>
           <p>
-            Hi, I am Michael, I enjoy building full-stack and front-end software, problem solving, and learning new technologies.
+            Hi, I am Michael, I enjoy building full-stack and front-end software, working with real data, and learning new technologies.
             Currently, my favorite technologies are React, JavaScript, and Python.
           </p>
         </div>
