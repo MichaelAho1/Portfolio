@@ -12,6 +12,7 @@ import gitIcon from '../assets/git.png';
 import flaskIcon from '../assets/flask.png';
 import mongoDBIcon from '../assets/mongoDB.png';
 import MySQLIcon from '../assets/MySQL.png';
+import DjangoIcon from '../assets/django.png';
 
 function Profile() {
   return (
@@ -66,6 +67,10 @@ function Profile() {
               <div className="skill-tag">
                 <img src={flaskIcon} alt="Flask" />
                 <span>Flask</span>
+              </div>
+              <div className="skill-tag">
+                <img src={DjangoIcon} alt="Django" />
+                <span>Django</span>
               </div>
               <div className="skill-tag">
                 <img src={javaIcon} alt="Java" />
