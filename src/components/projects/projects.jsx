@@ -28,14 +28,6 @@ function Projects() {
             <img src={reactIcon} />
           </div>
           <div className="tech-used">
-            <span>JavaScript</span>
-            <img src={jsIcon} />
-          </div>
-          <div className="tech-used">
-            <span>Flask</span>
-            <img src={flaskIcon} />
-          </div>
-          <div className="tech-used">
             <span>Python</span>
             <img src={pythonIcon} />
           </div>
@@ -51,6 +43,9 @@ function Projects() {
             A Full-stack simulator featuring dynamic prices, volatility, charts, and a compressed timeframe.
           </p>
           <div>
+            <a href="https://github.com/MichaelAho1/stockSim" className="btn">
+              View Code
+            </a>
           </div>
         </div>
         <div className="project-card">
