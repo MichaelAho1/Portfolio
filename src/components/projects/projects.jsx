@@ -91,7 +91,7 @@ function Projects() {
               View Code
             </a>
             <a href="https://michaelaho1.github.io/DailyRise/" className="btn">
-              View Website
+              View Site
             </a>
           </div>
         </div>
@@ -115,7 +115,7 @@ function Projects() {
               View Code
             </a>
             <a href="https://michaelaho1.github.io/Stock-Market-Game/" className="btn">
-              View Website
+              View Site
             </a>
           </div>
         </div>
