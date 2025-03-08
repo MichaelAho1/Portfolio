@@ -78,8 +78,8 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={morningFlowImg} alt="MorningFlow Project" width="100px" height="100px" />
-          <h3 className="project-header">MorningFlow</h3>
+          <img src={morningFlowImg} alt="DailyRise Project" width="100px" height="100px" />
+          <h3 className="project-header">DailyRise</h3>
           <div className="tech-used">
             <span>React</span>
             <img src={reactIcon} />
@@ -92,10 +92,10 @@ function Projects() {
             A productivity app delivering consolidated updates like weather, Bible verses, and stock info.
           </p>
           <div>
-            <a href="https://github.com/MichaelAho1/Morning-Project" className="btn">
+            <a href="https://github.com/MichaelAho1/DailyRise/" className="btn">
               View Code
             </a>
-            <a href="https://michaelaho1.github.io/MorningFlow/" className="btn">
+            <a href="michaelaho1.github.io/DailyRise/" className="btn">
               View Website
             </a>
           </div>
