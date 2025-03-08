@@ -12,6 +12,7 @@ import gitIcon from '../assets/git.png';
 import flaskIcon from '../assets/flask.png';
 import mongoDBIcon from '../assets/mongoDB.png';
 import MySQLIcon from '../assets/MySQL.png';
+import DjangoIcon from '../assets/django.png';
 
 function Profile() {
   return (
@@ -38,7 +39,7 @@ function Profile() {
             </a>
           </div>
           <p>
-            Hi, I am Michael, I enjoy building full-stack and front-end software, working with real data, and learning new technologies.
+            Hi, I am Michael, I enjoy working with financial data, building full-stack software, and learning new technologies.
             Currently, my favorite technologies are React, JavaScript, and Python.
           </p>
         </div>
@@ -66,6 +67,10 @@ function Profile() {
               <div className="skill-tag">
                 <img src={flaskIcon} alt="Flask" />
                 <span>Flask</span>
+              </div>
+              <div className="skill-tag">
+                <img src={DjangoIcon} alt="Django" />
+                <span>Django</span>
               </div>
               <div className="skill-tag">
                 <img src={javaIcon} alt="Java" />
@@ -98,13 +103,16 @@ function Profile() {
             <h4>Interests</h4>
             <div className="skills-grid">
               <div className="skill-tag">
+                <span>💰 Finance</span>
+              </div>
+              <div className="skill-tag">
+                <span>📈 Stocks</span>
+              </div>
+              <div className="skill-tag">
                 <span>🏋️ Lifting</span>
               </div>
               <div className="skill-tag">
                 <span>⛷️ Skiing</span>
-              </div>
-              <div className="skill-tag">
-                <span>📈 Stocks</span>
               </div>
               <div className="skill-tag">
                 <span>⛳ Golf</span>

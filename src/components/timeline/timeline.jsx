@@ -37,7 +37,7 @@ function Timeline() {
             </ul>
             <div className="timeline-tech">
               <span>Python/DJango</span>
-              <span>React.js</span>
+              <span>React</span>
               <span>Git</span>
               <span>Figma</span>
               <span>MySQL</span>
