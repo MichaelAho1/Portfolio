@@ -87,10 +87,10 @@ function Projects() {
             A productivity app delivering consolidated updates like weather, Bible verses, and stock info.
           </p>
           <div>
-            <a href="https://github.com/MichaelAho1/DailyRise/" className="btn">
+            <a href="https://github.com/MichaelAho1/DailyRise" className="btn">
               View Code
             </a>
-            <a href="michaelaho1.github.io/DailyRise/" className="btn">
+            <a href="https://michaelaho1.github.io/DailyRise/" className="btn">
               View Website
             </a>
           </div>
