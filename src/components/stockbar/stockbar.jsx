@@ -36,6 +36,7 @@ function StockBar() {
   
       return stockInfo;
   }
+
   function calculatePercentage({ openingPrice, closingPrice }) {
       return ((closingPrice - openingPrice) / openingPrice) * 100;
   }
@@ -75,31 +76,35 @@ function StockBar() {
 
   return (
     <>
-      <div className="stockBar">
-        <section id="moving">
-          <div id="infoBox" className="label-box2">📈 Stocks I am <br /> Currently <br /> Invested In:</div>
-          <div id="box1" className="label-box2">TOST <br /> {stockPrice1} <br />
-            <span style={{color: stockPercentage1 < 0 ? "red" : "green"}}>
-              {stockPercentage1}% 
-            </span>
-          </div>
-          <div id="box2" className="label-box">GOOG<br /> {stockPrice2} <br />
-            <span style={{color : stockPercentage2 < 0 ? "red" : "green"}}>
-              {stockPercentage2}% 
-            </span>
-          </div>
-          <div id="box3" className="label-box3">OKLO <br /> {stockPrice3} <br />
-            <span style ={{color : stockPercentage3 < 0 ? "red" : "green"}}>
-              {stockPercentage3}% 
-            </span>
-          </div>
-          <div id="box4" className="label-box4">NVDA <br /> {stockPrice4} <br />
-            <span style ={{color : stockPercentage4 < 0 ? "red" : "green"}}>
-              {stockPercentage4}% 
-            </span>
-          </div>
-        </section>
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div className="stockBar">        <section id="moving">          <div id="infoBox" className="label-box2">📈 Stocks I am <br /> Currently <br /> Invested In:</div>          <div id="box1" className="label-box2">TOST <br /> {stockPrice1} <br />            <span style={{color: stockPercentage1 < 0 ? "red" : "green"}}>              {stockPercentage1}%             </span>          </div>          <div id="box2" className="label-box">GOOG<br /> {stockPrice2} <br />            <span style={{color : stockPercentage2 < 0 ? "red" : "green"}}>              {stockPercentage2}%             </span>          </div>          <div id="box3" className="label-box3">OKLO <br /> {stockPrice3} <br />            <span style ={{color : stockPercentage3 < 0 ? "red" : "green"}}>              {stockPercentage3}%             </span>          </div>          <div id="box4" className="label-box4">NVDA <br /> {stockPrice4} <br />            <span style ={{color : stockPercentage4 < 0 ? "red" : "green"}}>              {stockPercentage4}%             </span>          </div>        </section>      </div>
     </>
   );
 }

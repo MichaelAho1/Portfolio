@@ -18,7 +18,7 @@ import MySQLIcon from '../assets/MySQL.png';
 function Projects() {
   return (
     <div id="Projects">
-      <h1 id="header">💡 Projects</h1>
+      <h1 id="header">Projects</h1>
       <div className="projectContainer">
         <div className="project-card">
           <img src={stockSim} alt="StockSim" width="100px" height="100px" />

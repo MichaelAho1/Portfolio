@@ -27,7 +27,7 @@ function Timeline() {
             <h3>Freelance Work</h3>
             <p className="timeline-time">July 2024 - Present</p>
             <p className="timeline-description">
-              Coding side projects to further my software development skills.
+              Coding side projects to further my software development skills and learn new technologies.
             </p>
             <ul>
               <li>Leading the development of StockSim, a full-stack Stock Market simulator.</li>
@@ -63,7 +63,7 @@ function Timeline() {
 
         <article className="timeline-item">
           <div className="timeline-content">
-            <h3>James Madison | Computer Science</h3>
+            <h3>James Madison University | Computer Science</h3>
             <p className="timeline-time">Aug 2023 - Present</p>
             <p className="timeline-description">
               Computer Science student focusing on software development.
