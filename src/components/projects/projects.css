@@ -25,12 +25,12 @@
 .project-card {
   width: 100%;
   max-width: 500px;
-  background: linear-gradient(145deg, #050505, #252323);
+  background: linear-gradient(145deg, #050505, #232325);
   border-radius: 15px;
   padding: 25px;
   text-align: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.15);
+  box-shadow: 0 4px 15px rgba(30, 58, 95, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
@@ -39,7 +39,7 @@
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 30px rgba(255, 107, 107, 0.3);
+  box-shadow: 0 8px 30px rgba(30, 58, 95, 0.3);
   border-color: #4ecdc4;
 }
 
@@ -84,9 +84,9 @@
 }
 
 .btn:hover {
-  background: #ff6b6b;
+  background: #1e3a5f;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+  box-shadow: 0 4px 15px rgba(30, 58, 95, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -108,7 +108,7 @@
   margin: 3px;
   color: white;
   border-radius: 20px;
-  background: linear-gradient(145deg, rgba(37, 179, 170, 0.103), rgba(240, 31, 31, 0.089));
+  background: linear-gradient(145deg, rgba(37, 179, 170, 0.103), rgba(228, 224, 224, 0.089));
   transition: all 0.3s ease;
 }
 
