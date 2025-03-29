@@ -24,3 +24,8 @@ body {
   position: relative;
   z-index: 1;
 }
+@media (max-width: 768px) { 
+  .container {
+    margin-top: 50px;
+  }
+}
