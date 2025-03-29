@@ -1,9 +1,6 @@
 .timeline-container {
   width: calc(100% - 20px);
   max-width: 968px;
-  margin: 20px auto;
-  padding: 20px;
-  padding-top: 150px;
 }
 
 .timeline-container h2 {
@@ -52,9 +49,13 @@
   transition: all 0.3s ease;
 }
 
+.timeline-item:hover {
+  box-shadow: 0 0 20px rgba(78, 205, 196, 0.5);
+}
+
 .timeline-item:hover::before {
   transform: scale(1.2);
-  box-shadow: 0 0 15px rgba(78, 205, 196, 0.6);
+  box-shadow: 0 0 20px rgba(78, 205, 196, 0.8);
 }
 
 .timeline-left {
@@ -213,14 +214,16 @@
   }
 }
 
-.timeline-header {
+header h1 {
+  border-bottom: 4px solid #4ecdc4;
+  color: #ffffff;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
-  color: #ffffff;
-  background: linear-gradient(90deg, #4ecdc4, #ffffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 

@@ -3,6 +3,10 @@ import './timeline.css';
 
 function Timeline() {
   return (
+    <>
+    <header>
+      <h1>Work Experience</h1>
+    </header>
     <section className="timeline-container">
       <div className="timeline">
       <article className="timeline-item">
@@ -24,7 +28,7 @@ function Timeline() {
 
         <article className="timeline-item">
           <div className="timeline-content">
-            <h3>Freelance Work</h3>
+            <h3>Freelance Developer</h3>
             <p className="timeline-time">July 2024 - Present</p>
             <p className="timeline-description">
               Coding side projects to further my software development skills and learn new technologies.
@@ -86,6 +90,7 @@ function Timeline() {
         </article>
       </div>
     </section>
+    </>
   );
 }
 
