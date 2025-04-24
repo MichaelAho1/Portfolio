@@ -12,7 +12,7 @@ function Timeline() {
         <article className="timeline-item">
           <div className="timeline-content">
             <h3>Cross Screen Media | Software Engineer Intern</h3>
-            <p className="timeline-time">May 2025 - September 2025</p>
+            <p className="timeline-time">May 2025 - Present</p>
             <ul>
               <li>
                 Building and managing full-stack web applications.
@@ -22,21 +22,6 @@ function Timeline() {
               <span>Python/DJango</span>
               <span>React.js</span>
               <span>JavaScript</span>
-            </div>
-          </div>
-        </article>
-        <article className="timeline-item">
-          <div className="timeline-content">
-            <h3>Outlier AI | AI Prompt Engineer Intern</h3>
-            <p className="timeline-time">December 2024 - February 2025</p>
-            <ul>
-              <li>
-                Developed scripts to improve AI image recognition capabilities.
-              </li>
-            </ul>
-            <div className="timeline-tech">
-              <span>Python</span>
-              <span>AI/ML</span>
             </div>
           </div>
         </article>
@@ -78,7 +63,7 @@ function Timeline() {
             <h3>James Madison University | Computer Science</h3>
             <p className="timeline-time">August 2023 - Present</p>
             <ul>
-              <li>Computer Science student at James Madison University focusing on full-stack software engineering and machine learning.
+              <li>Computer Science student at James Madison University focusing on full-stack software engineering.
             </li>
             </ul>
             <div className="timeline-tech">

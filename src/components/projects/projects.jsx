@@ -1,7 +1,7 @@
 import React from 'react';
 import './projects.css';
 import klowBitesImg from './assets/KLowBites-img.png';
-import stockSimImg from './assets/Stock-Sim-img.png';
+import CSWorkloadImg from './assets/CSWorkload.png';
 import morningFlowImg from './assets/MorningFlow-img.png';
 import sortResearchImg from './assets/SortReasearch-img.png';
 import stockSim from './assets/stockSim.png';
@@ -99,8 +99,8 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={stockSimImg} alt="Stock Market Simulator" width="100px" height="100px" />
-          <h3 className="project-header">Stock Market Game</h3>
+          <img src={CSWorkloadImg} alt="CS Workload" width="100px" height="100px" />
+          <h3 className="project-header">CS Workload</h3>
           <div className="tech-used">
             <span>JavaScript</span>
             <img src={jsIcon} />
@@ -110,13 +110,10 @@ function Projects() {
             <img src={htmlIcon} />
           </div>
           <p className="project-description">
-            A stock market game with an accelerated market and portfolio management tools.
+            Website to help JMU students create a graduation plan and find CS electives that correlate to there career plans.
           </p>
           <div>
-            <a href="https://github.com/MichaelAho1/Stock-Market-Game" className="btn">
-              View Code
-            </a>
-            <a href="https://michaelaho1.github.io/Stock-Market-Game/" className="btn">
+            <a href="https://w3stu.cs.jmu.edu/ahoma/cs343/project/index.html" className="btn">
               View Site
             </a>
           </div>
@@ -134,9 +131,6 @@ function Projects() {
             improved versions of quick sort and merge sort.
           </p>
           <div>
-            <a href="https://github.com/MichaelAho1/SortingResearch" className="btn">
-              View Code
-            </a>
           </div>
         </div>
 
@@ -151,9 +145,6 @@ function Projects() {
             Implemented file encoding and decoding with Huffman compression techniques.
           </p>
           <div>
-            <a href="https://github.com/MichaelAho1/Huffman-Coding" className="btn">
-              View Code
-            </a>
           </div>
         </div>
       </div>
