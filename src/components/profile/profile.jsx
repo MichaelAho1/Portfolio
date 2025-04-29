@@ -102,26 +102,26 @@ function Profile() {
           <div className="skills-section">
             <h4>Interests</h4>
             <div className="skills-grid">
-              <div className="skill-tag">
-                <span>💰 Finance</span>
+              <div className="skill-tag" data-aos="fade-up">
+                <span data-emoji="💰">Finance</span>
               </div>
-              <div className="skill-tag">
-                <span>📈 Stocks</span>
+              <div className="skill-tag" data-aos="fade-up" data-aos-delay="50">
+                <span data-emoji="📈">Stocks</span>
               </div>
-              <div className="skill-tag">
-                <span>🏋️ Lifting</span>
+              <div className="skill-tag" data-aos="fade-up" data-aos-delay="100">
+                <span data-emoji="🏋️">Lifting</span>
               </div>
-              <div className="skill-tag">
-                <span>⛷️ Skiing</span>
+              <div className="skill-tag" data-aos="fade-up" data-aos-delay="150">
+                <span data-emoji="⛷️">Skiing</span>
               </div>
-              <div className="skill-tag">
-                <span>⛳ Golf</span>
+              <div className="skill-tag" data-aos="fade-up" data-aos-delay="200">
+                <span data-emoji="⛳">Golf</span>
               </div>
-              <div className="skill-tag">
-                <span>🎨 UI/UX</span>
+              <div className="skill-tag" data-aos="fade-up" data-aos-delay="250">
+                <span data-emoji="🎨">UI/UX</span>
               </div>
-              <div className="skill-tag">
-                <span>🔧 Full-Stack</span>
+              <div className="skill-tag" data-aos="fade-up" data-aos-delay="300">
+                <span data-emoji="🔧">Full-Stack</span>
               </div>
             </div>
           </div>

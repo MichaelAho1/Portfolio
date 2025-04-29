@@ -75,7 +75,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={morningFlowImg} alt="DailyRise Project" width="100px" height="100px" />
+          <img src={morningFlowImg} alt="DailyRise Project" width="200px" height="200px" />
           <h3 className="project-header">DailyRise</h3>
           <div className="tech-used">
             <span>React</span>

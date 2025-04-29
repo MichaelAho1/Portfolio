@@ -11,11 +11,11 @@ function Timeline() {
       <div className="timeline">
         <article className="timeline-item">
           <div className="timeline-content">
-            <h3>Cross Screen Media | Software Engineer Intern</h3>
-            <p className="timeline-time">May 2025 - Present</p>
+            <h3>Cross Screen Media | Incoming Software Engineer Intern</h3>
+            <p className="timeline-time">May 2025 - August 2025</p>
             <ul>
               <li>
-                Building and managing full-stack web applications.
+                Building and managing full-stack web applications with React.js, Python, and Django.
               </li>
             </ul>
             <div className="timeline-tech">
@@ -63,7 +63,7 @@ function Timeline() {
             <h3>James Madison University | Computer Science</h3>
             <p className="timeline-time">August 2023 - Present</p>
             <ul>
-              <li>Computer Science student at James Madison University focusing on full-stack software engineering.
+              <li>Computer Science student at James Madison University focusing on full-stack software engineering and Machine Learning.
             </li>
             </ul>
             <div className="timeline-tech">
