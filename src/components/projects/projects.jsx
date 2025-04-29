@@ -23,8 +23,8 @@ function Projects() {
       </header>
       <div className="projectContainer">
         <div className="project-card">
-          <img src={stockSim} alt="StockSim" width="100px" height="100px" />
-          <h3 className="project-header">StockSim (In Progress)</h3>
+          <img src={stockSim} alt="StockSim" className="project-image" />
+          <h3 className="project-header">StockSim</h3>
           <div className="tech-used">
             <span>React</span>
             <img src={reactIcon} />
@@ -51,7 +51,7 @@ function Projects() {
           </div>
         </div>
         <div className="project-card">
-          <img src={klowBitesImg} alt="KLowBites Project" width="100px" height="100px" />
+          <img src={klowBitesImg} alt="KLowBites Project" className="project-image" />
           <h3 className="project-header">KLowBites</h3>
           <div className="tech-used">
             <span>Java</span>
@@ -75,7 +75,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={morningFlowImg} alt="DailyRise Project" width="200px" height="200px" />
+          <img src={morningFlowImg} alt="DailyRise Project" className="project-image" />
           <h3 className="project-header">DailyRise</h3>
           <div className="tech-used">
             <span>React</span>
@@ -99,7 +99,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={CSWorkloadImg} alt="CS Workload" width="100px" height="100px" />
+          <img src={CSWorkloadImg} alt="CS Workload" className="project-image" />
           <h3 className="project-header">CS Workload</h3>
           <div className="tech-used">
             <span>JavaScript</span>
@@ -120,7 +120,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={sortResearchImg} alt="Sorting Research Project" width="100px" height="100px" />
+          <img src={sortResearchImg} alt="Sorting Research Project" className="project-image" />
           <h3 className="project-header">Improved Sorting</h3>
           <div className="tech-used">
             <span>Java</span>
@@ -135,7 +135,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={huffmanImg} alt="Huffman Coding Project" width="100px" height="100px" />
+          <img src={huffmanImg} alt="Huffman Coding Project" className="project-image" />
           <h3 className="project-header">Huffman Coding</h3>
           <div className="tech-used">
             <span>Java</span>

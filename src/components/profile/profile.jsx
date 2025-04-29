@@ -26,9 +26,8 @@ function Profile() {
           />
           <h1 id="name">Michael Aho</h1>
           <label id="description">
-            CS @ JMU (Aug 2023 - Dec 2026)<br />
+            CS @ JMU<br />
             Full-stack Developer<br />
-            Washington D.C. Area
           </label>
           <div>
             <a href="https://www.linkedin.com/in/michael-aho-41844a291/" target="_blank" rel="noreferrer">
