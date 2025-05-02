@@ -113,9 +113,6 @@ function Projects() {
             Website to help JMU students create a graduation plan and find CS electives that correlate to there career plans.
           </p>
           <div>
-            <a href="https://w3stu.cs.jmu.edu/ahoma/cs343/project/index.html" className="btn">
-              View Site
-            </a>
           </div>
         </div>
 
