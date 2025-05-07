@@ -11,23 +11,6 @@ function Timeline() {
       <div className="timeline">
         <article className="timeline-item">
           <div className="timeline-content">
-            <h3>Cross Screen Media | Incoming Software Engineer Intern</h3>
-            <p className="timeline-time">May 2025 - August 2025</p>
-            <ul>
-              <li>
-                Building and managing full-stack web applications with React.js, Python, and Django.
-              </li>
-            </ul>
-            <div className="timeline-tech">
-              <span>Python/DJango</span>
-              <span>React.js</span>
-              <span>JavaScript</span>
-            </div>
-          </div>
-        </article>
-
-        <article className="timeline-item">
-          <div className="timeline-content">
             <h3>Freelance Developer</h3>
             <p className="timeline-time">July 2024 - Present</p>
             <ul>
