@@ -1,6 +1,6 @@
 #Projects {
   width: calc(100% - 20px);
-  max-width: 968px;
+  max-width: 1000px;
   padding: 40px;
   margin: 20px auto;
   display: flex;
@@ -12,18 +12,19 @@
 .projectContainer {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
   justify-items: center;
   box-sizing: border-box;
+  padding: 20px 0;
 }
 
 .project-card {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   background: linear-gradient(145deg, #050505, #232325);
   border-radius: 15px;
-  padding: 25px;
+  padding: 20px;
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(30, 58, 95, 0.15);
@@ -31,6 +32,10 @@
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  margin: 0;
 }
 
 .project-card:hover {
@@ -40,8 +45,8 @@
 }
 
 .project-card img {
-  width: 140px;
-  height: 140px;
+  width: 100%;
+  height: 50%;
   object-fit: cover;
   margin-bottom: 25px;
   border-radius: 16px;
@@ -50,12 +55,7 @@
   border: 2px solid rgba(255, 255, 255, 0.1);
   position: relative;
   z-index: 1;
-}
-
-.project-card:hover img {
-  transform: scale(1.05);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
-  border-color: rgba(78, 205, 196, 0.3);
+  filter: blur(0.5px);
 }
 
 .project-card::after {
@@ -73,15 +73,25 @@
 .project-card h3 {
   font-size: 1.3rem;
   color: #ffffff;
-  margin: 0 0 10px 0;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 0 20px;
 }
 
 .project-description {
   margin: 8px 0;
   min-height: 40px;
+  position: relative;
+  z-index: 2;
 }
 
 .project-card p {
@@ -92,21 +102,7 @@
 }
 
 .btn {
-  display: inline-block;
-  margin: 10px 5px;
-  padding: 8px 16px;
-  background: #368f89;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-
-.btn:hover {
-  background: #1e3a5f;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(30, 58, 95, 0.3);
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -147,4 +143,9 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+.project-card.dark-text h3 {
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }

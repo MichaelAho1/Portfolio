@@ -22,81 +22,21 @@ function Projects() {
         <h1>Coding Projects</h1>
       </header>
       <div className="projectContainer">
-        <div className="project-card">
+        <a href="https://github.com/MichaelAho1/stockSim" className="project-card">
           <img src={stockSim} alt="StockSim" className="project-image" />
           <h3 className="project-header">StockSim</h3>
           <div className="tech-used">
-            <span>React</span>
+            <span>React.js</span>
             <img src={reactIcon} />
           </div>
           <div className="tech-used">
-            <span>Python</span>
+            <span>Django</span>
             <img src={pythonIcon} />
           </div>
-          <div className="tech-used">
-            <span>MySQL</span>
-            <img src={MySQLIcon} />
-          </div>
-          <div className="tech-used">
-            <span>Git</span>
-            <img src={gitIcon} />
-          </div>
           <p className="project-description">
-            A Full-stack simulator featuring dynamic prices, volatility, charts, and a compressed timeframe.
+            A competitive stock market simulator that compresses a trading day into 5 minutes using Geometric Brownian Motion and stock trend modeling for price generation.
           </p>
-          <div>
-            <a href="https://github.com/MichaelAho1/stockSim" className="btn">
-              View Code
-            </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <img src={klowBitesImg} alt="KLowBites Project" className="project-image" />
-          <h3 className="project-header">KLowBites</h3>
-          <div className="tech-used">
-            <span>Java</span>
-            <img src={javaIcon} />
-          </div>
-          <div className="tech-used">
-            <span>Git</span>
-            <img src={gitIcon} />
-          </div>
-          <div className="tech-used">
-            <span>ScrumBoard</span>
-          </div>
-          <p className="project-description">
-            An interactive digital cookbook that allows users to manage and share recipes.
-          </p>
-          <div>
-            <a href="https://github.com/MichaelAho1/KLowBites1" className="btn">
-              View Code
-            </a>
-          </div>
-        </div>
-
-        <div className="project-card">
-          <img src={morningFlowImg} alt="DailyRise Project" className="project-image" />
-          <h3 className="project-header">DailyRise</h3>
-          <div className="tech-used">
-            <span>React</span>
-            <img src={reactIcon} />
-          </div>
-          <div className="tech-used">
-            <span>JavaScript</span>
-            <img src={jsIcon} />
-          </div>
-          <p className="project-description">
-            A productivity app delivering consolidated updates like weather, Bible verses, and stock info.
-          </p>
-          <div>
-            <a href="https://github.com/MichaelAho1/DailyRise" className="btn">
-              View Code
-            </a>
-            <a href="https://michaelaho1.github.io/DailyRise/" className="btn">
-              View Site
-            </a>
-          </div>
-        </div>
+        </a>
 
         <div className="project-card">
           <img src={CSWorkloadImg} alt="CS Workload" className="project-image" />
@@ -110,13 +50,43 @@ function Projects() {
             <img src={htmlIcon} />
           </div>
           <p className="project-description">
-            Website to help JMU students create a graduation plan and find CS electives that correlate to there career plans.
+            Website to help JMU students create a customized graduation plan and find CS electives that correlate to there career plans.
           </p>
-          <div>
-          </div>
         </div>
 
-        <div className="project-card">
+        <a href="https://github.com/MichaelAho1/DailyRise" className="project-card">
+          <img src={morningFlowImg} alt="DailyRise Project" className="project-image" />
+          <h3 className="project-header">DailyRise</h3>
+          <div className="tech-used">
+            <span>React</span>
+            <img src={reactIcon} />
+          </div>
+          <div className="tech-used">
+            <span>JavaScript</span>
+            <img src={jsIcon} />
+          </div>
+          <p className="project-description">
+            A morning dashboard application that centralized important daily updates.
+          </p>
+        </a>
+
+        <a href="https://github.com/MichaelAho1/KLowBites1" className="project-card dark-text">
+          <img src={klowBitesImg} alt="KLowBites Project" className="project-image" />
+          <h3 className="project-header">KLowBites</h3>
+          <div className="tech-used">
+            <span>Java</span>
+            <img src={javaIcon} />
+          </div>
+          <div className="tech-used">
+            <span>Git</span>
+            <img src={gitIcon} />
+          </div>
+          <p className="project-description">
+            An interactive digital cookbook that allows users to manage and share recipes.
+          </p>
+        </a>
+
+        <div className="project-card dark-text">
           <img src={sortResearchImg} alt="Sorting Research Project" className="project-image" />
           <h3 className="project-header">Improved Sorting</h3>
           <div className="tech-used">
@@ -127,11 +97,9 @@ function Projects() {
             Utilized existing sorting algorithms to create 
             improved versions of quick sort and merge sort.
           </p>
-          <div>
-          </div>
         </div>
 
-        <div className="project-card">
+        <div className="project-card dark-text">
           <img src={huffmanImg} alt="Huffman Coding Project" className="project-image" />
           <h3 className="project-header">Huffman Coding</h3>
           <div className="tech-used">
@@ -141,8 +109,6 @@ function Projects() {
           <p className="project-description">
             Implemented file encoding and decoding with Huffman compression techniques.
           </p>
-          <div>
-          </div>
         </div>
       </div>
     </div>
