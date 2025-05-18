@@ -11,17 +11,14 @@ function Timeline() {
       <div className="timeline">
         <article className="timeline-item">
           <div className="timeline-content">
-            <h3>Freelance Developer</h3>
-            <p className="timeline-time">July 2024 - Present</p>
+            <h3>Cross Screen Media | Software Engineering Intern</h3>
+            <p className="timeline-time">May 2025 - Present</p>
             <ul>
-              <li>Coding side projects to learn new technologies and gain experience.</li>
+              <li>Developing full-stack web applications using React.js, Django, and Python.</li>
             </ul>
             <div className="timeline-tech">
               <span>Python/DJango</span>
               <span>React</span>
-              <span>Git</span>
-              <span>Figma</span>
-              <span>MySQL</span>
             </div>
           </div>
         </article>
