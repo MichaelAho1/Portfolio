@@ -58,12 +58,8 @@ function Projects() {
           <img src={morningFlowImg} alt="DailyRise Project" className="project-image" />
           <h3 className="project-header">DailyRise</h3>
           <div className="tech-used">
-            <span>React</span>
+            <span>React.js</span>
             <img src={reactIcon} />
-          </div>
-          <div className="tech-used">
-            <span>JavaScript</span>
-            <img src={jsIcon} />
           </div>
           <p className="project-description">
             A morning dashboard application that centralized important daily updates.

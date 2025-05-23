@@ -17,8 +17,10 @@ function Timeline() {
               <li>Developing full-stack web applications using React.js, Django, and Python.</li>
             </ul>
             <div className="timeline-tech">
-              <span>Python/DJango</span>
-              <span>React</span>
+              <span>React.js</span>
+              <span>TypeScript</span>
+              <span>Django</span>
+              <span>Python</span>
             </div>
           </div>
         </article>

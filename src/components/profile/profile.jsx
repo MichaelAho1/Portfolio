@@ -43,7 +43,7 @@ function Profile() {
           </div>
           <p>
             Hi, I am Michael, I enjoy working with financial data, building full-stack software, and learning new technologies.
-            Currently, my favorite technologies are React, JavaScript, and Python.
+            Currently, my favorite technologies are <span id="favoriteTechs">React.js, Django, and Python</span>.
           </p>
         </div>
         
@@ -61,15 +61,11 @@ function Profile() {
               </div>
               <div className="skill-tag">
                 <img src={reactIcon} alt="React" />
-                <span>React</span>
+                <span>React.js</span>
               </div>
               <div className="skill-tag">
                 <img src={pythonIcon} alt="Python" />
                 <span>Python</span>
-              </div>
-              <div className="skill-tag">
-                <img src={flaskIcon} alt="Flask" />
-                <span>Flask</span>
               </div>
               <div className="skill-tag">
                 <img src={DjangoIcon} alt="Django" />
