@@ -1,7 +1,7 @@
 .contact {
   width: calc(100% - 40px);
   max-width: 1800px;
-  margin-top: 5%;
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,8 +51,8 @@
 }
 
 #headshot {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #4ecdc4;
@@ -68,10 +68,10 @@
 }
 
 #name {
-  font-size: 4.0em;
+  font-size: 3.5em;
   font-weight: 700;
   margin: 0;
-  background: linear-gradient(90deg, #4ecdc4, #ffffff);
+  background: #4ecdc4;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -181,6 +181,36 @@
   font-weight: 800;
 }
 
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(78, 205, 196, 0.1);
+  border: 1px solid rgba(78, 205, 196, 0.2);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.cv-button:hover {
+  background: rgba(78, 205, 196, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(78, 205, 196, 0.2);
+}
+
+.cv-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.cv-button span {
+  color: #4ecdc4;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .contact {
     padding: 20px;
@@ -250,5 +280,10 @@
 
   .skill-tag span::before {
     font-size: 20px;
+  }
+
+  .cv-button {
+    margin-top: 10px;
+    margin-left: 0;
   }
 }
