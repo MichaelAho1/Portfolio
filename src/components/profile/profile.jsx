@@ -13,7 +13,6 @@ import flaskIcon from '../assets/flask.png';
 import mongoDBIcon from '../assets/mongoDB.png';
 import MySQLIcon from '../assets/MySQL.png';
 import DjangoIcon from '../assets/django.png';
-import resumePDF from '../assets/Michael_Aho_Software_Engineer_Resume.pdf';
 
 function Profile() {
   return (
@@ -31,7 +30,7 @@ function Profile() {
             Full-stack Developer<br />
           </label>
           <div>
-            <h2 id="contact-header">Contact info & CV Link</h2>
+            <h2 id="contact-header">Contact info</h2>
             <a href="mailto:michael.aho84@gmail.com" className="email-link">
               <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" />
             </a>
@@ -40,9 +39,6 @@ function Profile() {
             </a>
             <a href="https://www.github.com/michaelaho1" target="_blank" rel="noreferrer">
               <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub" />
-            </a>
-            <a href={resumePDF} download className="email-link" title="Download CV">
-              <img src="https://img.icons8.com/color/48/000000/resume.png" alt="Download CV" />
             </a>
           </div>
           <p>
