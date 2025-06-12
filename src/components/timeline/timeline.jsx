@@ -45,7 +45,7 @@ function Timeline() {
             <h3>James Madison University | Computer Science</h3>
             <p className="timeline-time">August 2023 - Present</p>
             <ul>
-              <li>Computer Science student at James Madison University focusing on full-stack software engineering and Machine Learning.
+              <li>Junior Computer Science student at James Madison University focusing on full-stack software engineering.                 
             </li>
             </ul>
             <div className="timeline-tech">
