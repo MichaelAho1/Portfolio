@@ -1,6 +1,6 @@
 import React from 'react';
 import './profile.css';
-import headshot from '../assets/headshot.png';
+import headshot from '../assets/headshot.jpg';
 import htmlIcon from '../assets/html.png';
 import jsIcon from '../assets/javascript.png';
 import reactIcon from '../assets/react.png';
