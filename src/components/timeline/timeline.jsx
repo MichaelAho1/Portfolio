@@ -30,8 +30,9 @@ function Timeline() {
             <h3>LandMarksCM | Web Development Intern</h3>
             <p className="timeline-time">January 2024 - March 2024</p>
             <ul>
-              <li>Designed and developed LandmarksCM website.</li>
-              <li>Assisted the company in adopting AI for repetitive tasks.</li>
+              <li>Developed and deployed a client-facing web application using JavaScript, HTML, and CSS.</li>
+              <li>Integrated Google reCaptcha with JavaScript, reducing bot submissions and spam emails by 96%.</li>
+              <li>Automated repetitive data entry tasks using Google’s Gemini API and Python scripting.</li>
             </ul>
             <div className="timeline-tech">
             <span>WordPress</span>
