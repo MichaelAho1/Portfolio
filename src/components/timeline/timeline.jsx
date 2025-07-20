@@ -31,7 +31,7 @@ function Timeline() {
             <p className="timeline-time">January 2024 - March 2024</p>
             <ul>
               <li>Developed an automation tool with Python, using OpenAI’s GPT-4 API to standardize inconsistent headers and
-                merge audience data from multiple spreadsheets, automating 8 hours of manual work per week</li>
+                merge audience data from multiple spreadsheets, automating 4 hours of manual work per week</li>
               <li>Built a client-facing web application using JavaScript & CSS</li>
             </ul>
             <div className="timeline-tech">
