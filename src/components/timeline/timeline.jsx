@@ -32,7 +32,7 @@ function Timeline() {
             <ul>
               <li>Developed an automation tool with Python, using OpenAI’s GPT-4 API to standardize inconsistent headers and
                 merge audience data from multiple spreadsheets, automating 4 hours of manual work per week</li>
-              <li>Built a client-facing web application using JavaScript & CSS</li>
+              <li>Built a client-facing website using JavaScript & CSS</li>
             </ul>
             <div className="timeline-tech">
             <span>Python</span>
