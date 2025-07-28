@@ -19,7 +19,7 @@ function Projects() {
   return (
     <div id="Projects">
       <header>
-        <h1>Coding Projects</h1>
+        <h1>Passion Projects</h1>
       </header>
       <div className="projectContainer">
         <a href="https://github.com/MichaelAho1/stockSim" className="project-card">
@@ -34,7 +34,7 @@ function Projects() {
             <img src={pythonIcon} />
           </div>
           <p className="project-description">
-            A competitive stock market simulator that compresses a trading day into 5 minutes using Geometric Brownian Motion and stock trend modeling for price generation.
+            An accelerated stock market simulator that compresses a full trading day into 5 minutes
           </p>
         </a>
 
@@ -50,7 +50,7 @@ function Projects() {
             <img src={htmlIcon} />
           </div>
           <p className="project-description">
-            Website to help JMU students create a customized graduation plan and find CS electives that correlate to there career plans.
+            An acedimic planning tool built to help JMU students create a customized graduation plan and find CS electives that correlate to there career plans.
           </p>
         </div>
 
@@ -62,10 +62,14 @@ function Projects() {
             <img src={reactIcon} />
           </div>
           <p className="project-description">
-            A morning dashboard application that centralized important daily updates.
+            A morning dashboard application that centralized important morning updates.
           </p>
         </a>
-
+      </div>
+      <header>
+        <h1>School Projects</h1>
+      </header>
+      <div className="projectContainer">
         <a href="https://github.com/MichaelAho1/KLowBites1" className="project-card dark-text">
           <img src={klowBitesImg} alt="KLowBites Project" className="project-image" />
           <h3 className="project-header">KLowBites</h3>
