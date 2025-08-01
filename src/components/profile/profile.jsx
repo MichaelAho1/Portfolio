@@ -43,7 +43,6 @@ function Profile() {
           </div>
           <p>
             Hi, I am Michael, I enjoy working with financial data, building full-stack software, and learning new technologies.
-            Currently, my favorite technologies are <span id="favoriteTechs">React.js, Django, and Python</span>.
           </p>
         </div>
         
