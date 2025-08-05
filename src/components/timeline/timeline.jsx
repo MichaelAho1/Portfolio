@@ -17,7 +17,7 @@ function Timeline() {
               <li>Developed full-stack features for an analytics platform using React, TypeScript, and Django, including a filtering tool that supports 300+ audience attributes, improving audience targeting for 1,500+ advertising campaigns</li>
               <li>Migrated 15 TypeScript end-to-end test suites from Cypress to RainforestQA, enabling parallel test execution, reducing total test runtime by 68% (from 25 to 8 minutes)</li>
               <li>Optimized attribute load speeds with React, using Redux caching to reduce redundant API requests</li>
-              <li>Built a data validation system with Python and Django, resolving data handling errors for 75+ audience attributes</li>
+              <li>Built a data pipeline with Python and Django, resolving data handling errors for 75+ audience attributes</li>
             </ul>
             <div className="timeline-tech">
               <span>React.js</span>
