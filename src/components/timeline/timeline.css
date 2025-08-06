@@ -131,7 +131,7 @@
 
 .timeline-content li {
   color: #b0c4de;
-  font-size: 1.1rem;
+  font-size: .95rem;
   margin-bottom: 6px;
   padding-left: 20px;
   position: relative;
@@ -210,7 +210,7 @@
   }
 
   .timeline-content li {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
 }
 
