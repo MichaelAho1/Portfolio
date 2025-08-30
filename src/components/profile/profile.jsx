@@ -27,7 +27,6 @@ function Profile() {
           <h1 id="name">Michael Aho</h1>
           <label id="description">
             CS @ JMU<br />
-            Full-stack Developer<br />
           </label>
           <div>
             <h2 id="contact-header">Contact info</h2>
@@ -42,7 +41,7 @@ function Profile() {
             </a>
           </div>
           <p>
-            Hi, I am Michael, I enjoy working with financial data, building full-stack software, and learning new technologies.
+            Hi, I am Michael, I enjoy working with financial data, building software, and learning new technologies.
           </p>
         </div>
         
