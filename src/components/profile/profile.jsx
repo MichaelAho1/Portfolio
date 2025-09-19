@@ -7,10 +7,7 @@ import reactIcon from '../assets/react.png';
 import pythonIcon from '../assets/python.png';
 import javaIcon from '../assets/java.png';
 import cIcon from '../assets/c.png';
-import wordpressIcon from '../assets/wordpress.png';
 import gitIcon from '../assets/git.png';
-import flaskIcon from '../assets/flask.png';
-import mongoDBIcon from '../assets/mongoDB.png';
 import MySQLIcon from '../assets/MySQL.png';
 import DjangoIcon from '../assets/django.png';
 
@@ -79,16 +76,8 @@ function Profile() {
                 <span>C</span>
               </div>
               <div className="skill-tag">
-                <img src={mongoDBIcon} alt="MongoDB" />
-                <span>MongoDB</span>
-              </div>
-              <div className="skill-tag">
                 <img src={MySQLIcon} alt="MySQL" />
                 <span>MySQL</span>
-              </div>
-              <div className="skill-tag">
-                <img src={wordpressIcon} alt="WordPress" />
-                <span>WordPress</span>
               </div>
               <div className="skill-tag">
                 <img src={gitIcon} alt="Git" />
