@@ -66,51 +66,6 @@ function Projects() {
           </p>
         </a>
       </div>
-      <header>
-        <h1>School Projects</h1>
-      </header>
-      <div className="projectContainer">
-        <a href="https://github.com/MichaelAho1/KLowBites1" className="project-card dark-text">
-          <img src={klowBitesImg} alt="KLowBites Project" className="project-image" />
-          <h3 className="project-header">KLowBites</h3>
-          <div className="tech-used">
-            <span>Java</span>
-            <img src={javaIcon} />
-          </div>
-          <div className="tech-used">
-            <span>Git</span>
-            <img src={gitIcon} />
-          </div>
-          <p className="project-description">
-            An interactive digital cookbook that allows users to manage and share recipes.
-          </p>
-        </a>
-
-        <div className="project-card dark-text">
-          <img src={sortResearchImg} alt="Sorting Research Project" className="project-image" />
-          <h3 className="project-header">Improved Sorting</h3>
-          <div className="tech-used">
-            <span>Java</span>
-            <img src={javaIcon} />
-          </div>
-          <p className="project-description">
-            Utilized existing sorting algorithms to create 
-            improved versions of quick sort and merge sort.
-          </p>
-        </div>
-
-        <div className="project-card dark-text">
-          <img src={huffmanImg} alt="Huffman Coding Project" className="project-image" />
-          <h3 className="project-header">Huffman Coding</h3>
-          <div className="tech-used">
-            <span>Java</span>
-            <img src={javaIcon} />
-          </div>
-          <p className="project-description">
-            Implemented file encoding and decoding with Huffman compression techniques.
-          </p>
-        </div>
-      </div>
     </div>
   );
 }
