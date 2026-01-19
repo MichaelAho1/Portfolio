@@ -24,7 +24,7 @@ function Profile() {
           <h1 id="name">Michael Aho</h1>
           <label id="description">
             CS @ JMU<br />
-            Prev SWE Intern @ Cross Screen Media<br />
+            Incoming SWE Intern @ Capital One<br />
           </label>
           <div>
             <h2 id="contact-header">Contact info</h2>

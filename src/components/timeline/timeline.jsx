@@ -9,6 +9,16 @@ function Timeline() {
     </header>
     <section className="timeline-container">
       <div className="timeline">
+      <article className="timeline-item">
+          <div className="timeline-content">
+            <h3>ILS | Part-time Software Engineer</h3>
+            <p className="timeline-time">December 2025 - Present</p>
+            <div className="timeline-tech">
+              <span>Elasticsearch</span>
+              <span>Go</span>
+            </div>
+          </div>
+        </article>
         <article className="timeline-item">
           <div className="timeline-content">
             <h3>Cross Screen Media | Software Engineering Intern</h3>
