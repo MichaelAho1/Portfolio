@@ -18,6 +18,7 @@
   width: 100%;
 }
 
+
 .timeline::before {
   content: '';
   position: absolute;
