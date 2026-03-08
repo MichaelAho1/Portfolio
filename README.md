@@ -1,4 +1,4 @@
-# Michael Aho — Portfolio
+# Michael Aho - Portfolio
 
 CS student and full-stack developer with experience building web apps using React, Django, and Go.
 
@@ -24,7 +24,7 @@ src/
 | Project | Description | Link |
 |---------|-------------|------|
 | StockSim | Accelerated stock market simulator compressing a full trading day into 5 minutes | [GitHub](https://github.com/MichaelAho1/stockSim) |
-| CS Workload | Academic planning tool for JMU CS students to build graduation plans | — |
+| CS Workload | Academic planning tool for JMU CS students to build graduation plans | - |
 | DailyRise | Morning dashboard for centralized daily updates | [GitHub](https://github.com/MichaelAho1/DailyRise) |
 
 ---
