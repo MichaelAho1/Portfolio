@@ -17,7 +17,7 @@ function Projects() {
   return (
     <div id="Projects">
       <header>
-        <h1>Projects</h1>
+        <h1>Favorite Side Projects</h1>
       </header>
       <div className="projectContainer">
         <a href="https://github.com/MichaelAho1/stockSim" className="project-card">
@@ -67,22 +67,6 @@ function Projects() {
 
           <p className="project-description">
             Multiplayer stock market game: manage $10K virtual portfolios, trade in real-time, and compete in 8-week leagues.
-          </p>
-        </a>
-
-        <a href="https://github.com/MichaelAho1/CSWorkload" className="project-card">
-          <img src={CSWorkloadImg} alt="CS Workload" className="project-image" />
-          <h3 className="project-header">CS Workload</h3>
-          <div className="tech-used">
-            <span>JavaScript</span>
-            <img src={jsIcon} />
-          </div>
-          <div className="tech-used">
-            <span>HTML/CSS</span>
-            <img src={htmlIcon} />
-          </div>
-          <p className="project-description">
-            Browser-based CS graduation planner: generate prerequisite-aware, difficulty-balanced multi-semester schedules with exportable JSON and optional salary data.
           </p>
         </a>
       </div>
