@@ -1,11 +1,7 @@
 import React from 'react';
 import './projects.css';
-import klowBitesImg from './assets/KLowBites-img.png';
 import CSWorkloadImg from './assets/CSWorkload.png';
-import morningFlowImg from './assets/MorningFlow-img.png';
-import sortResearchImg from './assets/SortReasearch-img.png';
 import stockSim from './assets/stockSim.png';
-import huffmanImg from './assets/huffmanZipping-img.png';
 import htmlIcon from '../assets/html.png';
 import jsIcon from '../assets/javascript.png';
 import reactIcon from '../assets/react.png';
@@ -14,12 +10,14 @@ import gitIcon from '../assets/git.png';
 import flaskIcon from '../assets/flask.png';
 import pythonIcon from '../assets/python.png';
 import MySQLIcon from '../assets/MySQL.png';
+import groupitoImg from './assets/Groupito.png';
+import fantasyStockLeagueImg from './assets/FantasyStockLeague.png';
 
 function Projects() {
   return (
     <div id="Projects">
       <header>
-        <h1>Passion Projects</h1>
+        <h1>Projects</h1>
       </header>
       <div className="projectContainer">
         <a href="https://github.com/MichaelAho1/stockSim" className="project-card">
@@ -34,11 +32,45 @@ function Projects() {
             <img src={pythonIcon} />
           </div>
           <p className="project-description">
-            An accelerated stock market simulator that compresses a full trading day into 5 minutes
+            Accelerated stock market simulator: trade virtual portfolios in real-time, track performance, and compete using GBM-driven realistic prices.
           </p>
         </a>
 
-        <div className="project-card">
+        <a href="https://github.com/MichaelAho1/Grupito" className="project-card">
+          <img src={groupitoImg} alt="Grupito Project" className="project-image" />
+          <h3 className="project-header">Grupito</h3>
+          <div className="tech-used">
+            <span>React.js</span>
+            <img src={reactIcon} />
+          </div>
+          <div className="tech-used">
+            <span>JavaScript</span>
+            <img src={jsIcon} />
+          </div>
+
+          <p className="project-description">
+            Full-stack social learning platform for JMU Spanish classes that enables section-based feeds with posts, audio, images, interactive challenges, and instructor/student activity tracking.
+          </p>
+        </a>
+
+        <a href="https://github.com/MichaelAho1/FantasyStockLeague" className="project-card">
+          <img src={fantasyStockLeagueImg} alt="Fantasy Stock League Project" className="project-image" />
+          <h3 className="project-header">Fantasy Stock League</h3>
+          <div className="tech-used">
+            <span>React.js</span>
+            <img src={reactIcon} />
+          </div>
+          <div className="tech-used">
+            <span>Django</span>
+            <img src={pythonIcon} />
+          </div>
+
+          <p className="project-description">
+            Multiplayer stock market game: manage $10K virtual portfolios, trade in real-time, and compete in 8-week leagues.
+          </p>
+        </a>
+
+        <a href="https://github.com/MichaelAho1/CSWorkload" className="project-card">
           <img src={CSWorkloadImg} alt="CS Workload" className="project-image" />
           <h3 className="project-header">CS Workload</h3>
           <div className="tech-used">
@@ -50,19 +82,7 @@ function Projects() {
             <img src={htmlIcon} />
           </div>
           <p className="project-description">
-            An acedimic planning tool built to help JMU students create a customized graduation plan and find CS electives that correlate to there career plans.
-          </p>
-        </div>
-
-        <a href="https://github.com/MichaelAho1/DailyRise" className="project-card">
-          <img src={morningFlowImg} alt="DailyRise Project" className="project-image" />
-          <h3 className="project-header">DailyRise</h3>
-          <div className="tech-used">
-            <span>React.js</span>
-            <img src={reactIcon} />
-          </div>
-          <p className="project-description">
-            A morning dashboard application that centralized important morning updates.
+            Browser-based CS graduation planner: generate prerequisite-aware, difficulty-balanced multi-semester schedules with exportable JSON and optional salary data.
           </p>
         </a>
       </div>
