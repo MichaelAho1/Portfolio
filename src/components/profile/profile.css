@@ -184,6 +184,7 @@
 .cv-button {
   display: inline-flex;
   align-items: center;
+  vertical-align: middle;
   gap: 8px;
   padding: 8px 16px;
   background: rgba(78, 205, 196, 0.1);
@@ -191,7 +192,7 @@
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s ease;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .cv-button:hover {

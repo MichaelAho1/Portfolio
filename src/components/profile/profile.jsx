@@ -1,12 +1,10 @@
 import React from 'react';
 import './profile.css';
 import headshot from '../assets/headshot.jpg';
-import htmlIcon from '../assets/html.png';
 import jsIcon from '../assets/javascript.png';
 import reactIcon from '../assets/react.png';
 import pythonIcon from '../assets/python.png';
 import javaIcon from '../assets/java.png';
-import cIcon from '../assets/c.png';
 import gitIcon from '../assets/git.png';
 import MySQLIcon from '../assets/MySQL.png';
 import DjangoIcon from '../assets/django.png';
@@ -23,8 +21,8 @@ function Profile() {
           />
           <h1 id="name">Michael Aho</h1>
           <label id="description">
-            CS @ JMU<br />
-            Incoming SWE Intern @ Capital One<br />
+            CS @ JMU · Expected Dec 2026<br />
+            Software Engineer @ ILS<br />
           </label>
           <div>
             <h2 id="contact-header">Contact info</h2>
@@ -48,8 +46,12 @@ function Profile() {
             <h4>Technologies</h4>
             <div className="skills-grid">
               <div className="skill-tag">
-                <img src={htmlIcon} alt="HTML/CSS" />
-                <span>HTML/CSS</span>
+                <img src={pythonIcon} alt="Python" />
+                <span>Python</span>
+              </div>
+              <div className="skill-tag">
+                <img src="https://img.icons8.com/color/48/typescript.png" alt="TypeScript" />
+                <span>TypeScript</span>
               </div>
               <div className="skill-tag">
                 <img src={jsIcon} alt="JavaScript" />
@@ -60,10 +62,6 @@ function Profile() {
                 <span>React.js</span>
               </div>
               <div className="skill-tag">
-                <img src={pythonIcon} alt="Python" />
-                <span>Python</span>
-              </div>
-              <div className="skill-tag">
                 <img src={DjangoIcon} alt="Django" />
                 <span>Django</span>
               </div>
@@ -72,12 +70,16 @@ function Profile() {
                 <span>Java</span>
               </div>
               <div className="skill-tag">
-                <img src={cIcon} alt="C" />
-                <span>C</span>
+                <img src="https://img.icons8.com/color/48/golang.png" alt="Go" />
+                <span>Go</span>
               </div>
               <div className="skill-tag">
-                <img src={MySQLIcon} alt="MySQL" />
-                <span>MySQL</span>
+                <img src="https://img.icons8.com/color/48/amazon-web-services.png" alt="AWS" />
+                <span>AWS</span>
+              </div>
+              <div className="skill-tag">
+                <img src={MySQLIcon} alt="SQL" />
+                <span>SQL</span>
               </div>
               <div className="skill-tag">
                 <img src={gitIcon} alt="Git" />

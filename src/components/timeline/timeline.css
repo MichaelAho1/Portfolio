@@ -128,12 +128,21 @@ header h1 {
   letter-spacing: 0.02em;
 }
 
-/* Description */
-.timeline-description {
+/* Highlights */
+.timeline-highlights {
   color: rgba(176, 196, 222, 0.75);
   font-size: 0.88rem;
   line-height: 1.55;
   margin: 0 0 14px;
+  padding-left: 18px;
+}
+
+.timeline-highlights li {
+  margin-bottom: 6px;
+}
+
+.timeline-highlights li:last-child {
+  margin-bottom: 0;
 }
 
 /* Tech tags */
