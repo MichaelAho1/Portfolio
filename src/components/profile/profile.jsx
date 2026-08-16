@@ -23,6 +23,7 @@ function Profile() {
           <label id="description">
             CS @ JMU · Expected Dec 2026<br />
             Software Engineer @ ILS<br />
+            Prev. SWE Intern @ Capital One<br />
           </label>
           <div>
             <h2 id="contact-header">Contact info</h2>
